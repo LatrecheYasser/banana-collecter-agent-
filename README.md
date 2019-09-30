@@ -1,4 +1,4 @@
-# banana-collecter-agent-
+# banana-collecter-agent
 train an agent in Unity Machine Learning Agents to collect yellow bananas and avoid blue ones
 
 for this project i will train an agent to collect as many yellow bananas as it can using [**Unity ML-Agents**](https://github.com/Unity-Technologies/ml-agents), and the envirenment will be a large square world.
