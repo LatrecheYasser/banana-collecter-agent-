@@ -1,0 +1,8 @@
+name: DRLND-banana-collecter
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - pytorch
+  - pandas
+  - jupyter
