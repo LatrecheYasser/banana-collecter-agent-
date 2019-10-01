@@ -16,13 +16,26 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
  - 4 - turn right
 
 ---
-so how to run this project.
+so how to run this project ?
 
-first you have to create a vertual python env and  install some dependencies . or you can simply follow the instractions below
+the depepandencies that you need to install inorder to run this project are:
+
+  - numpy
+  - matplotlib
+  - pytorch
+  - pandas
+  - jupyter
+  - and the Unity ML-Agents (you find below the link to how install it page ) 
+
+or you can install them in defrent ways, by derectly run the folowing scripit in the terminal ` pip install -r requirements.txt `
+
+or you have to create a vertual python env and  install the dependencies . or you can simply follow the instractions below
  - 1 - clone this project 
  - 2 - move to it's folder and open the terminal there 
- - 3 - run `  conda env create -f DRLND-banana-collecter.yml ` <br/>
- and now you will have to install the Unity ML-Agent, inorder to do that just [follow this link](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) <br/>
+ - 3 - run `  conda env create -f DRLND-banana-collecter.yml ` this will create an envirenment and install the needed depandecies automaticly <br/
 
-now if u did all this correctly you are able to run the code. in the same folder run this ` source activate DRLND-banana-collecter ` than `jupyter notebook`. and you are ready to run it.
+
+ and finaly now you will have to install the Unity ML-Agent, inorder to do that just [follow this link](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md) <br/>
+
+now if u did all this correctly you are able to run the code. in the same folder run this ` source activate DRLND-banana-collecter ` than `jupyter notebook`. and yfrom the notebook home page you can open `DRLND-banana-collecter.jpynb`.
 
