@@ -1,4 +1,6 @@
 # banana-collecter-agent
+ ## how the Qnetwork works:
+ the Qnetwork consiste of 2 networks of the smae architecteur, used in parallel in the learning phase. the first one is the local network which is the principal one that used to predict the Q(s,a) and the other one used to predict the target Q value, we train the local network and at some point we update the other one by coping the paramaters of the first one to the other one.  
 
  ## network description <br/>
 
